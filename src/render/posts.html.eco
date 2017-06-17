@@ -1,0 +1,15 @@
+---
+layout: 'page'
+section: 'home'
+isPaged: true
+pagedCollection: 'posts'
+split: true
+prefix: 'page'
+pageSize: 5
+---
+
+<main id="content" class="content" role="main">
+
+  <%- @partial('loop') %>
+
+</main>
